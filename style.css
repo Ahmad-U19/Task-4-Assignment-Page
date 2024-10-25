@@ -1,0 +1,73 @@
+body{
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 600px;
+    height: 440px;
+    padding: 10px;
+    padding-left: 15px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+.container h3{
+    text-align: center;
+}
+.container h4{
+    margin-top: 20px;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+.container select{
+    width: 500px;
+    height: 40px;
+    font-size: 19px;
+}
+.container h4 + p{
+    margin: 0;
+    padding: 0;
+    color: gray;
+}
+.container button{
+    padding: 5px;
+    margin-top: 10px;
+    text-align: left;
+    border-radius: 9px;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000;
+    
+}
+.container button:hover{
+    border-color: blue;
+    color: blue;
+}
+.container p + button{
+    padding: 5px;
+    margin-right: 25px;
+}
+#foter button{
+    margin-top: 30px;
+    margin-left: 160px;
+    background-color: blue;
+    width: 250px;
+    height: 45px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+}
+#foter button:hover{
+    background-color: white;
+    color: blue;
+    border-color: blue;
+}
